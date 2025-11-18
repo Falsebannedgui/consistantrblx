@@ -126,7 +126,25 @@ const ToS = () => {
             </div>
           </div>
 
-          <div className="mt-[20px] pt-[15px] border-t border-border text-[10px] opacity-60 text-center animate-slide-up" style={{ animationDelay: "0.2s" }}>
+          <div className="mt-[25px] animate-slide-up" style={{ animationDelay: "0.2s" }}>
+            <h2 className="text-[18px] text-primary font-bold mb-[15px]">
+              Our Team
+            </h2>
+            <div className="space-y-[10px]">
+              <div className="border-l-2 border-primary pl-[12px]">
+                <p className="text-[13px]">
+                  <span className="font-bold">Dan</span> - <span className="text-primary">Founder & Developer</span>
+                </p>
+              </div>
+              <div className="border-l-2 border-primary pl-[12px]">
+                <p className="text-[13px]">
+                  <span className="font-bold">kernel</span> - <span className="text-primary">Manager</span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="mt-[20px] pt-[15px] border-t border-border text-[10px] opacity-60 text-center animate-slide-up" style={{ animationDelay: "0.3s" }}>
             we can change the terms of service at any time @Consistant 2025
           </div>
         </div>
