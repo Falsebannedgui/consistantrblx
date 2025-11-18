@@ -22,21 +22,21 @@ const MainPage = ({ onNavigateToDashboard }: MainPageProps) => {
           <Button
             onClick={handleDiscordClick}
             variant="default"
-            className="w-full bg-primary text-foreground border border-[hsl(var(--inline))] px-[5px] py-[5px] font-mono text-[12px] hover:bg-[hsl(var(--inline))] transition-all duration-200 hover:scale-[1.02] active:scale-[0.98]"
+            className="w-full bg-primary text-foreground border border-[hsl(var(--inline))] px-[8px] py-[3px] font-mono text-[11px] hover:bg-[hsl(var(--inline))] transition-all duration-200 hover:scale-[1.02] active:scale-[0.98]"
           >
             Join Discord
           </Button>
           <Button
             onClick={onNavigateToDashboard}
             variant="default"
-            className="w-full bg-primary text-foreground border border-[hsl(var(--inline))] px-[5px] py-[5px] font-mono text-[12px] hover:bg-[hsl(var(--inline))] transition-all duration-200 hover:scale-[1.02] active:scale-[0.98]"
+            className="w-full bg-primary text-foreground border border-[hsl(var(--inline))] px-[8px] py-[3px] font-mono text-[11px] hover:bg-[hsl(var(--inline))] transition-all duration-200 hover:scale-[1.02] active:scale-[0.98]"
           >
             Purchase
           </Button>
           <Button
             onClick={() => navigate("/tos")}
             variant="ghost"
-            className="w-full text-foreground hover:bg-[hsl(var(--inline))] px-[5px] py-[5px] font-mono text-[11px] transition-all duration-200 hover:scale-[1.02] active:scale-[0.98] opacity-80 hover:opacity-100 mt-[5px]"
+            className="w-full text-foreground hover:bg-[hsl(var(--inline))] px-[8px] py-[3px] font-mono text-[10px] transition-all duration-200 hover:scale-[1.02] active:scale-[0.98] opacity-80 hover:opacity-100 mt-[5px]"
           >
             Terms of Service
           </Button>

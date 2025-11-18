@@ -60,7 +60,7 @@ const Dashboard = () => {
           <Button
             onClick={() => navigate("/tos")}
             variant="ghost"
-            className="text-foreground hover:bg-[hsl(var(--inline))] transition-all duration-200 text-[10px] font-mono px-[8px] py-[4px] opacity-70 hover:opacity-100"
+            className="text-foreground hover:bg-[hsl(var(--inline))] transition-all duration-200 text-[10px] font-mono px-[6px] py-[2px] opacity-70 hover:opacity-100"
           >
             ToS
           </Button>
@@ -97,7 +97,7 @@ const Dashboard = () => {
 
         <Button
           onClick={handleDownload}
-          className="w-full bg-primary text-foreground border border-[hsl(var(--inline))] px-[5px] py-[5px] font-mono text-[12px] hover:bg-[hsl(var(--inline))] transition-all duration-200 hover:scale-[1.02] active:scale-[0.98] animate-slide-up"
+          className="w-full bg-primary text-foreground border border-[hsl(var(--inline))] px-[8px] py-[3px] font-mono text-[11px] hover:bg-[hsl(var(--inline))] transition-all duration-200 hover:scale-[1.02] active:scale-[0.98] animate-slide-up"
           style={{ animationDelay: '0.3s' }}
         >
           Download
