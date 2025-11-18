@@ -1,8 +1,10 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { toast } from "sonner";
+import { useNavigate } from "react-router-dom";
 
 const Dashboard = () => {
+  const navigate = useNavigate();
   const [countdown, setCountdown] = useState({ text: "365 days", percentage: 100 });
 
   useEffect(() => {
@@ -51,9 +53,18 @@ const Dashboard = () => {
   return (
     <div className="flex min-h-screen items-center justify-center p-[10px] animate-fade-in">
       <div className="w-full max-w-[350px] bg-card border border-border p-[15px] text-center shadow-[0_0px_10px_hsl(var(--outline))] animate-slide-up">
-        <h2 className="text-[20px] text-primary mb-[15px] font-normal animate-slide-down">
-          Dashboard
-        </h2>
+        <div className="flex items-center justify-between mb-[15px]">
+          <h2 className="text-[20px] text-primary font-normal animate-slide-down">
+            Dashboard
+          </h2>
+          <Button
+            onClick={() => navigate("/tos")}
+            variant="ghost"
+            className="text-foreground hover:bg-[hsl(var(--inline))] transition-all duration-200 text-[10px] font-mono px-[8px] py-[4px] opacity-70 hover:opacity-100"
+          >
+            ToS
+          </Button>
+        </div>
         
         <div className="mb-[15px] text-left space-y-0 animate-slide-up" style={{ animationDelay: '0.1s' }}>
           <div className="flex justify-between py-[5px] border-b border-border text-[11px]">
