@@ -15,7 +15,7 @@ const MainPage = ({ onNavigateToDashboard }: MainPageProps) => {
   return (
     <div className="flex min-h-screen items-center justify-center p-[10px] animate-fade-in">
       <div className="w-full max-w-[300px] bg-card border border-border p-[15px] text-center shadow-[0_0px_10px_hsl(var(--outline))] animate-slide-up">
-        <h1 className="text-[28px] text-primary mb-[15px] font-normal tracking-wide animate-slide-down">
+        <h1 className="text-[28px] text-primary mb-[15px] font-orbitron font-black tracking-wide animate-slide-down text-center" style={{ textShadow: '-2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000' }}>
           Consistant
         </h1>
         <div className="flex flex-col gap-[5px]">
