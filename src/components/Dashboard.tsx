@@ -97,7 +97,7 @@ const Dashboard = () => {
 
         <Button
           onClick={handleDownload}
-          className="w-full bg-primary text-foreground border border-[hsl(var(--inline))] px-[8px] py-[1px] font-mono text-[11px] hover:bg-[hsl(var(--inline))] transition-all duration-200 hover:scale-[1.02] active:scale-[0.98] animate-slide-up"
+          className="w-full h-auto bg-primary text-foreground border border-[hsl(var(--inline))] px-[8px] py-[1px] font-mono text-[11px] hover:bg-[hsl(var(--inline))] transition-all duration-200 hover:scale-[1.02] active:scale-[0.98] animate-slide-up"
           style={{ animationDelay: '0.3s' }}
         >
           Download
